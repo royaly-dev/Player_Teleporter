@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "player_teleporter",
+  "version": "${version}",
+
+  "name": "Player Téléporter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": ["dev.royaly.player_teleporter.client.Player_teleporterDataGenerator"],
+    "client": ["dev.royaly.player_teleporter.client.Player_teleporterClient"],
+    "main": ["dev.royaly.player_teleporter.Player_teleporter"]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
