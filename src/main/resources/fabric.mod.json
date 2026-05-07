@@ -7,6 +7,9 @@
   "description": "",
   "authors": [],
   "contact": {},
+  "mixins": [
+    "modid.mixins.json"
+  ],
 
   "license": "All-Rights-Reserved",
 

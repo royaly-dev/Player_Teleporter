@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#.#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "player_teleporter:magic_stone"
+    },
+    ".": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "item": "player_teleporter:player_finder"
+  }
+}
